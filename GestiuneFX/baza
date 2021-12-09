@@ -1,8 +1,0 @@
-create table produsee(
-id INT not null auto_increment,
-PRIMARY KEY (ID),
-nume varchar(250),
-cantitate int,
-pret int,
-categorie varchar(250)
-);
