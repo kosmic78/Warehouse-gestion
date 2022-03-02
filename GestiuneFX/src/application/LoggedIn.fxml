@@ -5,24 +5,13 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
-	minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0"
-	prefWidth="678.0" xmlns="http://javafx.com/javafx/8.0.171"
-	xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="application.ControllerLoggedIn">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerLoggedIn">
 	<children>
-		<ChoiceBox fx:id="choiceBox" layoutX="192.0" layoutY="2.0"
-			prefHeight="25.0" prefWidth="221.0" />
-		<ListView fx:id="listView" layoutX="76.0" layoutY="36.0"
-			prefHeight="328.0" prefWidth="452.0" />
-		<Button fx:id="adaugaProdus" layoutX="559.0" layoutY="79.0"
-			mnemonicParsing="false" onAction="#adaugaProdus" prefHeight="41.0"
-			prefWidth="106.0" text="Adauga produs" />
-		<Button fx:id="stergeProdus" layoutX="559.0" layoutY="159.0"
-			mnemonicParsing="false" onAction="#stergeProdus" prefHeight="41.0"
-			prefWidth="106.0" text="Sterge produs" />
-		<Button fx:id="logOut" layoutX="559.0" layoutY="251.0"
-			mnemonicParsing="false" onAction="#logOut" prefHeight="41.0"
-			prefWidth="106.0" text="Log out" />
+		<ChoiceBox fx:id="choiceBox" layoutX="192.0" layoutY="2.0" prefHeight="25.0" prefWidth="221.0" />
+		<ListView fx:id="listView" layoutX="76.0" layoutY="36.0" prefHeight="328.0" prefWidth="452.0" />
+		<Button fx:id="adaugaProdus" layoutX="559.0" layoutY="79.0" mnemonicParsing="false" onAction="#adaugaProdus" prefHeight="41.0" prefWidth="106.0" text="Adauga produs" />
+		<Button fx:id="stergeProdus" layoutX="559.0" layoutY="159.0" mnemonicParsing="false" onAction="#stergeProdus" prefHeight="41.0" prefWidth="106.0" text="Sterge produs" />
+		<Button fx:id="logOut" layoutX="559.0" layoutY="251.0" mnemonicParsing="false" onAction="#logOut" prefHeight="41.0" prefWidth="106.0" text="Log out" />
+      <Button fx:id="editeazaProdus" layoutX="559.0" layoutY="344.0" mnemonicParsing="false" onAction="#editeazaProdus" prefHeight="41.0" prefWidth="106.0" text="Editeaza produs" />
 	</children>
 </AnchorPane>

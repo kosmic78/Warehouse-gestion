@@ -30,7 +30,7 @@ public class ControllerLoggedIn implements Initializable {
 	private Scene scene;
 	static String nume, categorie;
 	static int cod, pret, cantitate;
-	private Parent root;
+	private Parent root;                                                                
 	List<Produs> listaProduse = new LinkedList<>(creareLista());
 	private String[] listaChoice = { "Snacks", "Dulciuri", "Sucuri", "Toate" };
 
@@ -163,7 +163,17 @@ public class ControllerLoggedIn implements Initializable {
 		}
 
 	}
-
+	public void editeazaProdus(ActionEvent event) throws IOException{
+		FXMLLoader loaderr = new FXMLLoader(getClass().getResource("EditeazaProdus.fxml"));
+		root = loaderr.load();
+		scene = new Scene(root);
+		// stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+		Stage Stage = new Stage();
+		Stage.setScene(scene);
+		Stage.initOwner(stage);
+		Stage.close();
+		Stage.showAndWait();
+	}
 	public void stergeProdus(ActionEvent event) throws IOException {
 		final int selectedIdx = listView.getSelectionModel().getSelectedIndex();
 		if (selectedIdx != -1) {
