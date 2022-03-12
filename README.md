@@ -4,8 +4,10 @@ It's an application made in Java with a GUI. For storing the data i've made a mo
 My application has also a login / register system implemented.
 # Login page
 ![Login](https://postimg.cc/5jqq2cx0)
+Link to the image (somehow this is not displayed on github): https://postimg.cc/5jqq2cx0
 # Register page
 ![Register](https://imgur.com/a/ji0g4md.png)
+Link to the image (somehow this is not displayed on github): https://imgur.com/a/ji0g4md.png
 # Viewing all the products
 ![View](https://i.imgur.com/KkSmDuE.png)
 # Viewing only the snacks
@@ -20,6 +22,8 @@ After selecting a product and pressing the 'Sterge produs' button, an product wi
 ![Delete](https://i.imgur.com/xISBsbX.png)
 # Editing product with ID 1
 ![Edit](https://imgur.com/a/dSSdtSi.png)
+Link to the image (somehow this is not displayed on github): https://imgur.com/a/dSSdtSi.png
 
 After pressing the 'OK' button, on the next run of the application, the product with ID 1 will get updated:
 ![Edit](https://imgur.com/a/LJBcU3b.png)
+Link to the image (somehow this is not displayed on github): https://imgur.com/a/LJBcU3b.png
